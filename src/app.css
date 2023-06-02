@@ -1,0 +1,44 @@
+h1 {
+  font-family: 'IM Fell DP Pro';
+  color: white;
+}
+
+/* Fonts */
+@font-face {
+  font-family: 'hultog.regular';
+  src: url('/fonts/hultog.regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'hultog.italic';
+  src: url('/fonts/hultog.italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'IM Fell DP Pro';
+  src: url('/fonts/IMFeDPrm29C.otf') format('opentype');
+}
+
+.invisible-button {
+  background: none;
+  border: none;
+  outline: none;
+  color: antiquewhite;
+  padding: 0;
+}
+
+.invisible-button-dark {
+  background: none;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 0;
+  cursor: pointer;
+}
+
+* {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
